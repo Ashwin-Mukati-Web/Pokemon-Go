@@ -24,7 +24,7 @@ function Pokemon(){
         <h1 className="title">Pokemon</h1>
         <div className="list-pokemon">
         {
-            pokemon  && pokemonProperties.length > 0 && 
+            pokemon && pokemonProperties.length > 0 && 
             pokemon.map((individualPokemon, i) =>  {
                 const { name} = individualPokemon;
                 return (
