@@ -34,7 +34,7 @@ function PokemonEvolution(props){
                 })
             }
             <div className="list-of-pokemon">
-                <Link to="/pokemons">List Of Pokemon</Link>
+                <Link to="/">List Of Pokemon</Link>
             </div>
         </>
     )
