@@ -28,6 +28,8 @@
     height: 60px;
     margin: 20px;
     border-radius: 5px 5px 0px;
+    transform: scale(2);
+    padding-top: 10px;
 }
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);

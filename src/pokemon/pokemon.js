@@ -30,7 +30,7 @@ function Pokemon() {
                         return (
                             <Link to={`/evolve/${pokemonProperties[i].id}`} class="card">
                                 <div key={i}>
-                                    <img src={`https://pokeres.bastionbot.org/images/pokemon/${pokemonProperties[i].id}.png`} alt={name}
+                                    <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/${pokemonProperties[i].id}.png`} alt={name}
                                         className="pokemon-image" alt="Avatar" />
                                     <div class="container">
                                         <div className="container">
